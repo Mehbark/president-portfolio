@@ -1,0 +1,4 @@
+#!/bin/fish
+for i in (seq 1 45)
+    pandoc out/$i.html -t latex -o out2/$i.pdf
+end

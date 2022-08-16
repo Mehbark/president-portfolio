@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>helper</title>
+        <script>
+            function generate_json() {
+                return JSON.stringify(
+                    Array.from(document.body.children).map(node =>
+                        president_obj(node)
+                    )
+                );
+            }
+
+            function president_obj(node) {
+                return {
+                    electoral_summary:
+                        node.getElementsByClassName("electoral-summary")[0]
+                            .value,
+                    domestic_issues:
+                        node.getElementsByClassName("domestic-issues")[0].value,
+                    foreign_policy_issues: node.getElementsByClassName(
+                        "foreign-policy-issues"
+                    )[0].value,
+                    major_contributions: node.getElementsByClassName(
+                        "major-contributions"
+                    )[0].value,
+                    quote: node.getElementsByClassName("quote")[0].value,
+                    quote_explanation:
+                        node.getElementsByClassName("quote-explanation")[0]
+                            .value,
+                };
+            }
+        </script>
+    </head>
+    <body>
+        <div id="George-Washington">
+    <a href="https://en.wikipedia.org/wiki/George_Washington">George Washington</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="John-Adams">
+    <a href="https://en.wikipedia.org/wiki/John_Adams">John Adams</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Thomas-Jefferson">
+    <a href="https://en.wikipedia.org/wiki/Thomas_Jefferson">Thomas Jefferson</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="James-Madison">
+    <a href="https://en.wikipedia.org/wiki/James_Madison">James Madison</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="James-Monroe">
+    <a href="https://en.wikipedia.org/wiki/James_Monroe">James Monroe</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="John-Quincy-Adams">
+    <a href="https://en.wikipedia.org/wiki/John_Quincy_Adams">John Quincy Adams</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Andrew-Jackson">
+    <a href="https://en.wikipedia.org/wiki/Andrew_Jackson">Andrew Jackson</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Martin-Van-Buren">
+    <a href="https://en.wikipedia.org/wiki/Martin_Van_Buren">Martin Van Buren</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="William-Henry-Harrison">
+    <a href="https://en.wikipedia.org/wiki/William_Henry_Harrison">William Henry Harrison</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="John-Tyler">
+    <a href="https://en.wikipedia.org/wiki/John_Tyler">John Tyler</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="James-K.-Polk">
+    <a href="https://en.wikipedia.org/wiki/James_K._Polk">James K. Polk</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Zachary-Taylor">
+    <a href="https://en.wikipedia.org/wiki/Zachary_Taylor">Zachary Taylor</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Millard-Fillmore">
+    <a href="https://en.wikipedia.org/wiki/Millard_Fillmore">Millard Fillmore</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Franklin-Pierce">
+    <a href="https://en.wikipedia.org/wiki/Franklin_Pierce">Franklin Pierce</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="James-Buchanan">
+    <a href="https://en.wikipedia.org/wiki/James_Buchanan">James Buchanan</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Abraham-Lincoln">
+    <a href="https://en.wikipedia.org/wiki/Abraham_Lincoln">Abraham Lincoln</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Andrew-Johnson">
+    <a href="https://en.wikipedia.org/wiki/Andrew_Johnson">Andrew Johnson</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Ulysses-S.-Grant">
+    <a href="https://en.wikipedia.org/wiki/Ulysses_S._Grant">Ulysses S. Grant</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Rutherford-B.-Hayes">
+    <a href="https://en.wikipedia.org/wiki/Rutherford_B._Hayes">Rutherford B. Hayes</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="James-A.-Garfield">
+    <a href="https://en.wikipedia.org/wiki/James_A._Garfield">James A. Garfield</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Chester-A.-Arthur">
+    <a href="https://en.wikipedia.org/wiki/Chester_A._Arthur">Chester A. Arthur</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Grover-Cleveland">
+    <a href="https://en.wikipedia.org/wiki/Grover_Cleveland">Grover Cleveland</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Benjamin-Harrison">
+    <a href="https://en.wikipedia.org/wiki/Benjamin_Harrison">Benjamin Harrison</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="William-McKinley">
+    <a href="https://en.wikipedia.org/wiki/William_McKinley">William McKinley</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Theodore-Roosevelt">
+    <a href="https://en.wikipedia.org/wiki/Theodore_Roosevelt">Theodore Roosevelt</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="William-Howard-Taft">
+    <a href="https://en.wikipedia.org/wiki/William_Howard_Taft">William Howard Taft</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Woodrow-Wilson">
+    <a href="https://en.wikipedia.org/wiki/Woodrow_Wilson">Woodrow Wilson</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Warren-G.-Harding">
+    <a href="https://en.wikipedia.org/wiki/Warren_G._Harding">Warren G. Harding</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Calvin-Coolidge">
+    <a href="https://en.wikipedia.org/wiki/Calvin_Coolidge">Calvin Coolidge</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Herbert-Hoover">
+    <a href="https://en.wikipedia.org/wiki/Herbert_Hoover">Herbert Hoover</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Franklin-D.-Roosevelt">
+    <a href="https://en.wikipedia.org/wiki/Franklin_D._Roosevelt">Franklin D. Roosevelt</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Harry-S.-Truman">
+    <a href="https://en.wikipedia.org/wiki/Harry_S._Truman">Harry S. Truman</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Dwight-D.-Eisenhower">
+    <a href="https://en.wikipedia.org/wiki/Dwight_D._Eisenhower">Dwight D. Eisenhower</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="John-F.-Kennedy">
+    <a href="https://en.wikipedia.org/wiki/John_F._Kennedy">John F. Kennedy</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Lyndon-B.-Johnson">
+    <a href="https://en.wikipedia.org/wiki/Lyndon_B._Johnson">Lyndon B. Johnson</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Richard-Nixon">
+    <a href="https://en.wikipedia.org/wiki/Richard_Nixon">Richard Nixon</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Gerald-Ford">
+    <a href="https://en.wikipedia.org/wiki/Gerald_Ford">Gerald Ford</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Jimmy-Carter">
+    <a href="https://en.wikipedia.org/wiki/Jimmy_Carter">Jimmy Carter</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Ronald-Reagan">
+    <a href="https://en.wikipedia.org/wiki/Ronald_Reagan">Ronald Reagan</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="George-H.-W.-Bush">
+    <a href="https://en.wikipedia.org/wiki/George_H._W._Bush">George H. W. Bush</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Bill-Clinton">
+    <a href="https://en.wikipedia.org/wiki/Bill_Clinton">Bill Clinton</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="George-W.-Bush">
+    <a href="https://en.wikipedia.org/wiki/George_W._Bush">George W. Bush</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Barack-Obama">
+    <a href="https://en.wikipedia.org/wiki/Barack_Obama">Barack Obama</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Donald-Trump">
+    <a href="https://en.wikipedia.org/wiki/Donald_Trump">Donald Trump</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+<div id="Joe-Biden">
+    <a href="https://en.wikipedia.org/wiki/Joe_Biden">Joe Biden</a>
+    <div>
+        <p>Regional attributes, opponent name and party affiliation</p>
+        <textarea class="electoral-summary"></textarea>
+    </div>
+    <div>
+        <p>Major domestic issues, with explanations, at least three</p>
+        <textarea class="domestic-issues"></textarea>
+    </div>
+    <div>
+        <p>Major foreign policy issues, with explanations, at least three</p>
+        <textarea class="foreign-policy-issues"></textarea>
+    </div>
+    <div>
+        <p>Major contributions to politics before or after the presidency</p>
+        <textarea class="major-contributions"></textarea>
+    </div>
+    <div>
+        <p>Presidential quote and explanation of historical significance</p>
+        <textarea class="quote"></textarea>
+        <textarea class="quote-explanation"></textarea>
+    </div>
+</div>
+
+    </body>
+</html>
+

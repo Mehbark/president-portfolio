@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head> </head>
+    <body>
+        <h1 id="name">{{ name }}</h1>
+        <img
+            id="image"
+            src="file:///home/mbk/Aims/president-portfolio/images/{{ id }}.jpg"
+        />
+        <h2 id="served">Served: {{ served }}</h2>
+        <h2 id="vice-president">Vice president: {{ vice_president }}</h2>
+        <h2 id="party">Party: {{ party }}</h2>
+
+        <h2 id="electoral-summary">Electoral Summary</h2>
+        <p id="electoral-summary">{{ electoral_summary }}</p>
+        <h2 id="domestic-issues">Domestic Issues</h2>
+        <p id="domestic-issues">{{ domestic_issues }}</p>
+        <h2 id="foreign-issues">Foreign Issues</h2>
+        <p id="foreign-policy-issues">{{ foreign_policy_issues }}</p>
+        <p id="major-contributions">{{ major_contributions }}</p>
+
+        <h2 id="quote">“{{ quote }}”</h2>
+        <p id="quote-explanation">{{ quote_explanation }}</p>
+    </body>
+    <style>
+        /* #quote::before {
+            content: "“";
+        }
+        #quote::after {
+            content: "”";
+        } */
+    </style>
+</html>

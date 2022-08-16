@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>helper</title>
+        <script>
+            function generate_json() {
+                return JSON.stringify(
+                    Array.from(document.body.children).map(node =>
+                        president_obj(node)
+                    )
+                );
+            }
+
+            function president_obj(node) {
+                return {
+                    electoral_summary:
+                        node.getElementsByClassName("electoral-summary")[0]
+                            .value,
+                    domestic_issues:
+                        node.getElementsByClassName("domestic-issues")[0].value,
+                    foreign_policy_issues: node.getElementsByClassName(
+                        "foreign-policy-issues"
+                    )[0].value,
+                    major_contributions: node.getElementsByClassName(
+                        "major-contributions"
+                    )[0].value,
+                    quote: node.getElementsByClassName("quote")[0].value,
+                    quote_explanation:
+                        node.getElementsByClassName("quote-explanation")[0]
+                            .value,
+                };
+            }
+        </script>
+    </head>
+    <body>
+        {{ helpers }}
+    </body>
+</html>
