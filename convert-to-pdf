@@ -1,4 +1,4 @@
 #!/bin/fish
 for i in (seq 1 45)
-    pandoc --template latex-numberless.template out/$i.html -t latex -o out2/$i.pdf &
+    pandoc -H gobble-page-numbers.template out/$i.html -t latex -o out2/$i.pdf &
 end
